@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-noto-telugu), var(--font-noto-sans), system-ui, sans-serif;
+
+  --color-page: #f6f5f1;
+  --color-card: #ffffff;
+  --color-ink: #1b1b19;
+  --color-ink-2: #4a4944;
+  --color-muted: #6b6a63;
+  --color-line: #e1e0d9;
+
+  --color-brand: #1f4e79;
+  --color-brand-dark: #163a5c;
+  --color-brand-soft: #e8eff6;
+
+  /* status colours */
+  --color-critical: #d03b3b;
+  --color-critical-soft: #fbeaea;
+  --color-warning: #fab219;
+  --color-warning-soft: #fff5dc;
+  --color-good: #0ca30c;
+  --color-good-text: #006300;
+  --color-good-soft: #e7f6e7;
+
+  /* AI suggestion tint */
+  --color-ai: #5b3fd1;
+  --color-ai-soft: #f4f1ff;
+  --color-ai-line: #d6cdf8;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+  line-height: 1.65; /* Telugu conjuncts need vertical room */
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+}
