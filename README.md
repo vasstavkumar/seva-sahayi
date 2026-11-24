@@ -2,7 +2,7 @@
 
 **An income-certificate workflow for Telangana revenue officers, in Telugu, with AI help at every step and the officer always making the decision.**
 
-- **Live demo:** [_add Vercel URL_](https://seva-sahayi.vercel.app/)
+- **Live demo:** [_Live URL_](https://seva-sahayi.vercel.app/)
 - **Logins:** `demo / Demo@2026` (can act at every step) · `gpo / Gpo@2026` and `gpo2 / Gpo2@2026` (village officers for different villages: steps 1–2) · `tahsildar / Tahsildar@2026` (step 3, whole mandal)
 - The interface is Telugu by default. Use the **English** button at the top right to switch.
 
